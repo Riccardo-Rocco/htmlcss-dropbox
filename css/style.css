@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: white;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    min-height: 20%;
+    padding: 10px 20px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    gap: 15px;
+}
+
+section {
+    display: inline-block;
+}
+
+.bottone a {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.bottone a:hover {
+    background-color: #0056b3;
+}
+
+.blue {
+    background-color: #007BFF;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titolo-uno {
+    width: 80%;
+    height: 100px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.content-wrapper {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.text-container {
+    flex: 1;
+    background-color: yellow;
+    padding: 20px;
+    margin-bottom: 2em;
+}
+
+.img-container {
+    flex: 1;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -4em;
+}
+
+.img-container img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.white {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mod {
+    margin-top: 5em;
+    background-color: aqua;
+    width: 65%;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-left: -45em;
+}
+
+.custom-option input[type="radio"] {
+    display: none;
+}
+
+.custom-radio {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #007BFF;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-option input[type="radio"]:checked + .custom-radio {
+    background-color: #007BFF;
+}
+
+.subscriptions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.column {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-right: 2em;
+}
+
+.column strong, .column span {
+    display: block;
+}
+
+.icon-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.icon-section i {
+    font-size: 1.5em;
+}
+
+hr.secondary-line {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 10px 0;
+    width: 70%;
+}
+
+.space {
+    height: 1em;
+    width: 100%;
+}
+
+.feature, .check-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.feature i, .check-list i {
+    margin-right: 10px;
+}
+
+.purchase-btn {
+    width: 90%;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purchase-btn:hover {
+    background-color: #0056b3;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+.check-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+/******margini*******/
+.margin-5{ margin-left: -5em;}
+.margin-6{ margin-left: -6em;}
+.margin-7{ margin-left: -7em;}
+.margin-8{ margin-left: -8em;}
+.margin-9{ margin-left: -9em;}
+.margin-10{ margin-left: -10em;}
+.margin-11{ margin-left: -11em;}
+
+
+.font{font-size: 2em;}
