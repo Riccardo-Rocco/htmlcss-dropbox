@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 <body>
@@ -40,28 +41,34 @@
     <main>
 
         <!--parte main superiore intro-->
-        <div class="blue">
-            <div class="titolo-uno"> 
-                <h1> </h1>
+        <div class=" bg-azzurro ">
+            <div class="titolo-uno flex xL-font"> 
+                <h1 class="bold mb-0"> Lorem ipsum dolor sit amet consectetur  <br>adipisicing elit. Odit, quis quaerat!</h1>
             </div>
             <div class="content-wrapper">
                 <div class="text-container">
-                    <p>Il tuo testo qui</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In enim voluptatum est error praesentium nisi libero cum. Suscipit consequuntur eum vero quaerat, dolorum illum ducimus, fugiat quam ipsum dignissimos officiis voluptatibus ex recusandae? Maiores, animi veritatis consectetur laborum velit alias!</p>
+                    <button class="p-1 mb-2 w-50 mt-2 bg-blu txt-bianco border-n ">Acquista ora</button>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div  class="freccia pt-5  mb-4 size-3"> <i class="fas fa-arrow-down"></i></div>
                 </div>
+
+                
+                
                 <div class="img-container">
-                    <img src="percorso-della-tua-immagine.jpg" alt="Descrizione immagine">
+                    <img src="img/jumbo.png" alt="Descrizione immagine">
                 </div>
             </div>
             
         </div>
-        <div class=" white">
-            <div class="titolo-uno mod"> 
-                <h1> </h1>
+        <div class=" white flex w-100">
+            <div class="titolo-uno mod mb-2"> 
+                <h1 class="bold">Lorem ipsum dolor sit amet consectetur. </h1>
             </div>
 
-                <!--radiobutton-->
+                                            <!--radiobutton-->
 
-            <div class="options">
+            <div class="options mb-5">
                 <label class="custom-option">
                     <input type="radio" name="choice" value="option1">
                     <span class="custom-radio"></span>
@@ -71,136 +78,177 @@
                     <span class="custom-radio"></span>
                 </label>
             </div>
-                        <!-- Inizio Colonna -->
-            <div class="subscriptions">
 
-                <div class="column">
-                    <div class="icon-section">
-                        <i class="fa fa-user font">Titolino</i>
-                        
-                    </div>
-                    <hr >
-            
-                    <strong class="margin-5">Nome Abbonamento</strong>
-                    <span class="margin-11">Prezzo</span>
-                    <span class=" margin-8">Per mese/anno</span>
+                                            <!--fine repartro radio buttons-->
+                                            <!-- Inizio Colonna -->
+            <div class="columns-wrapper">
 
-                    
-                    <div class="space"></div>
-                
-                    <div class="feature margin-9"><i class="fa fa-user"></i> 1 Utente</div>
-                    <div class="feature"><i class="fa fa-folder"></i> 5TB di spazio di archiviazione</div>
-                    <div class="feature margin-9"><i class="fa fa-share-alt"></i> Lorem10</div>
-                    
-                    <div class="space"></div>
-                    
-            
-                    <!-- Bottone  e Acquista Ora -->
-                    <button class="purchase-btn">Acquista ora</button>
-                    <div class="margin-5"><p>oppure <a href="#"> Acquista ora</a></p></div>
-            
-                    <div class="space"></div>
-            
-                    <!-- Linea orizzontale e sottotitolo -->
-                    <hr class="secondary-line">
-                    <h4 class="margin-9">Sottotitolo</h4>
-            
-                    <!-- Lista con check -->
-                    <ul class="check-list margin-8">
-                        <li><i class="fa fa-check"></i>  Elemento 1</li>
-                        <li><i class="fa fa-check"></i> Elemento 2</li>
-                        
+                <div class="column ">
+                    <h3 class="bold text-center mt-0 mb-0"><i class="fa fa-user" ></i> singolo </h3>
+                    <hr class="w-100">
+                    <ul class="list">
+                        <li class="pb-1 bold"> professional</li>
+                        <li class="pb-1">€ 12.00</li>
+                        <li class="pb-1">/mese </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="pb-1 "><i class="fa fa-user"></i> 1 utente</li>
+                        <li class="pb-1 "><i class="fa fa-folder"></i> 5TB di spazio</li>
+                        <li class="pb-1 "><i class="fa fa-share-alt"></i> Condivisione</li>
+                    </ul>
+                    <button class="p-1 mb-2 w-100 mt-2 bg-blu txt-bianco border-n">Acquista ora</button>
+                    <p class=" list  text-left ml-0 ">oppure <a href="#">acquista ora</a></p>
+                    <hr class="w-50 ml-0">
+
+                    <ul class="list">
+                        <li class="pb-1"><i class="fa fa-check txt-blu"></i> 1 utente</li>
+                        <li class="pb-1"><i class="fa fa-check txt-blu"></i> 5TB di spazio</li>
+                        <li class="pb-1"><i class="fa fa-check txt-blu"></i> Condivisione</li>
                     </ul>
                 </div>
 
-                <div class="column">
-                    <div class="icon-section">
-                        <i class="fa fa-user font">Titolino</i>
-                        
-                    </div>
-                    <hr >
-            
-                    <strong class="margin-5">Nome Abbonamento</strong>
-                    <span class="margin-11">Prezzo</span>
-                    <span class=" margin-8">Per mese/anno</span>
+                <div class="column ">
+                    <h3 class="bold text-center mt-0 mb-0"><i class="fa fa-user" ></i> singolo </h3>
+                    <hr class="w-100">
+                    <ul class="list">
+                        <li class="pb-1 bold"> professional</li>
+                        <li class="pb-1">€ 12.00</li>
+                        <li class="pb-1">/mese </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="pb-1 "><i class="fa fa-user"></i> 1 utente</li>
+                        <li class="pb-1 "><i class="fa fa-folder"></i> 5TB di spazio</li>
+                        <li class="pb-1 "><i class="fa fa-share-alt"></i> Condivisione</li>
+                    </ul>
+                    <button class="p-1 mb-2 w-100 mt-2 bg-blu txt-bianco border-n">Acquista ora</button>
+                    <p class=" list  text-left ml-0 ">oppure <a href="#">acquista ora</a></p>
+                    <hr class="w-50 ml-0">
 
-                    
-                    <div class="space"></div>
-                
-                    <div class="feature margin-9"><i class="fa fa-user"></i> 1 Utente</div>
-                    <div class="feature"><i class="fa fa-folder"></i> 5TB di spazio di archiviazione</div>
-                    <div class="feature margin-9"><i class="fa fa-share-alt"></i> Lorem10</div>
-                    
-                    <div class="space"></div>
-                    
-            
-                    <!-- Bottone  e Acquista Ora -->
-                    <button class="purchase-btn">Acquista ora</button>
-                    <div class="margin-5"><p>oppure <a href="#"> Acquista ora</a></p></div>
-            
-                    <div class="space"></div>
-            
-                    <!-- Linea orizzontale e sottotitolo -->
-                    <hr class="secondary-line">
-                    <h4 class="margin-9">Sottotitolo</h4>
-            
-                    <!-- Lista con check -->
-                    <ul class="check-list margin-8">
-                        <li><i class="fa fa-check"></i>  Elemento 1</li>
-                        <li><i class="fa fa-check"></i> Elemento 2</li>
-                        
+                    <ul class="list">
+                        <li class="pb-1"><i class="fa fa-check txt-blu"></i> 1 utente</li>
+                        <li class="pb-1"><i class="fa fa-check txt-blu"></i> 5TB di spazio</li>
+                        <li class="pb-1"><i class="fa fa-check txt-blu"></i> Condivisione</li>
+                        <li class="pb-1"><i class="fa fa-check txt-blu"></i> 1 utente</li>
+                        <li class="pb-1"><i class="fa fa-check txt-blu"></i> 5TB di spazio</li>
+                        <li class="pb-1"><i class="fa fa-check txt-blu"></i> Condivisione</li>
                     </ul>
                 </div>
 
-                <div class="column">
-                    <div class="icon-section">
-                        <i class="fa fa-user font">Titolino</i>
-                        
-                    </div>
-                    <hr >
-            
-                    <strong class="margin-5">Nome Abbonamento</strong>
-                    <span class="margin-11">Prezzo</span>
-                    <span class=" margin-8">Per mese/anno</span>
+                <div class="column ">
+                    <h3 class="bold text-center mt-0 mb-0"><i class="fa fa-user" ></i> singolo </h3>
+                    <hr class="w-100">
+                    <ul class="list">
+                        <li class="pb-1 bold"> professional</li>
+                        <li class="pb-1">€ 12.00</li>
+                        <li class="pb-1">/mese </li>
+                    </ul>
+                    <ul class="list">
+                        <li class="pb-1 "><i class="fa fa-user"></i> 1 utente</li>
+                        <li class="pb-1 "><i class="fa fa-folder"></i> 5TB di spazio</li>
+                        <li class="pb-1 "><i class="fa fa-share-alt"></i> Condivisione</li>
+                    </ul>
+                    <button class="p-1 mb-2 w-100 mt-2 bg-blu txt-bianco border-n">Acquista ora</button>
+                    <p class=" list  text-left ml-0 ">oppure <a href="#">acquista ora</a></p>
+                    <hr class="w-50 ml-0">
 
-                    
-                    <div class="space"></div>
-                
-                    <div class="feature margin-9"><i class="fa fa-user"></i> 1 Utente</div>
-                    <div class="feature"><i class="fa fa-folder"></i> 5TB di spazio di archiviazione</div>
-                    <div class="feature margin-9"><i class="fa fa-share-alt"></i> Lorem10</div>
-                    
-                    <div class="space"></div>
-                    
-            
-                    <!-- Bottone  e Acquista Ora -->
-                    <button class="purchase-btn">Acquista ora</button>
-                    <div class="margin-5"><p>oppure <a href="#"> Acquista ora</a></p></div>
-            
-                    <div class="space"></div>
-            
-                    <!-- Linea orizzontale e sottotitolo -->
-                    <hr class="secondary-line">
-                    <h4 class="margin-9">Sottotitolo</h4>
-            
-                    <!-- Lista con check -->
-                    <ul class="check-list margin-8">
-                        <li><i class="fa fa-check"></i>  Elemento 1</li>
-                        <li><i class="fa fa-check"></i> Elemento 2</li>
-                        
+                    <ul class="list">
+                        <li class="pb-1"><i class="fa fa-check txt-blu"></i> 1 utente</li>
+                        <li class="pb-1"><i class="fa fa-check txt-blu"></i> 5TB di spazio</li>
+                        <li class="pb-1"><i class="fa fa-check txt-blu"></i> Condivisione</li>
+                        <li class="pb-1"><i class="fa fa-check txt-blu"></i> Condivisione</li>
                     </ul>
                 </div>
+
+                                    <!--fine reparto colonne-->
+
+                                    <!--inizio singolo contenitore-->
+
+                </div>
+                 <div class="full-width-column  mt-5  mb-5 text-center">
+                    <div>
+                        <h3 class="bold text-center mt-0 mb-0"><i class="fas fa-hotel" ></i> singolo </h3>
+                        <hr class="w-100">
+                        <ul class="list ">
+                            <li class="pb-1 bold xL-font mb-2 space-b"> 1 utente <button class=" mb-2 w-25 mt-2 bg-blu txt-bianco border-n p-2">Acquista ora</button></li>
+                            <li class="pb-1 bold m-font mb-5 "> 5TB di spazio </li>
+                            <li class="pb-1 mt-2 "> Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+                        </ul>
+
+                    </div>
+                   
+                    
+                </div>
+
+                                            <!--fine contenitore-->
+
+                                            <!--inizio contenitore partner-->
+                <div class="full-width-section flex space-b mt-5  ">
+                    <div class="img-part">
+                        <img src="img/partner.png" alt="Partner Image">
+                    </div>
+                    <div class="text-part ml-5">
+                        <h2 class="bold xL-font">Lorem ipsum dolor sit amet.</h2>
+                        <p class="txt-grigio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae molestias architecto doloribus porro? Dignissimos praesentium sapiente, error voluptate impedit ex dolorem similique laboriosam corporis nobis recusandae cupiditate reprehenderit voluptates distinctio nihil sit, ad doloremque necessitatibus?</p>
+                        <button class=" mb-2 w-50 mt-2 shadow-light border-scuro bg-bianco txt-grigio border p-2">Acquista ora</button>
+
+                    </div>
+                </div>
+                                            <!--fine reparto partner-->
+                                            <!--inzio card contenitori-->
+
+                <div class="cards-container w-60">
+                    <h1 class="center-block ">Lorem ipsum dolor sit amet consectetur.</h1>
+                    <!-- Prima Riga -->
+                    <div class="card-row">
+                        <div class="card">
+                            <img src="img/business-feature-multi-device.png" alt="Card Image 1">
+                            <h4 class="bold">Lorem ipsum dolor sit.</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium optio praesentium suscipit ea, culpa rerum!</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/business-feature-coordinate-it.png" alt="Card Image 2">
+                            <h4 class="bold">Lorem ipsum dolor sit.</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium optio praesentium suscipit ea, culpa rerum!</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/business-feature-integrations-it.png" alt="Card Image 3">
+                            <h4 class="bold">Lorem ipsum dolor sit.</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium optio praesentium suscipit ea, culpa rerum!</p>
+                        </div>
+                    </div>
+                    <!-- Seconda Riga -->
+                    <div class="card-row">
+                        <div class="card">
+                            <img src="img/business-feature-security.png" alt="Card Image 4">
+                            <h4 class="bold">Lorem ipsum dolor sit.</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium optio praesentium suscipit ea, culpa rerum!</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/business-feature-send-files-it.png" alt="Card Image 5">
+                            <h4 class="bold">Lorem ipsum dolor sit.</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium optio praesentium suscipit ea, culpa rerum!</p>
+                        </div>
+                        <div class="card">
+                            <img src="img/business-feature-switching-tools.png" alt="Card Image 6">
+                            <h4 class="bold">Lorem ipsum dolor sit.</h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium optio praesentium suscipit ea, culpa rerum!</p>
+                        </div>
+                    </div>
+                </div>
                 
-            
-               
-            
-            </div>
-            
 
+                                            
 
-            
+                                            
+                
+                
+                
+            </div>  
         </div>
 
+
+
+       
     </main>
 
 
