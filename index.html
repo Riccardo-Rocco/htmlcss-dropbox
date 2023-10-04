@@ -10,24 +10,24 @@
 </head>
 <body>
 
-    <header>
-        <div class="left">
-            <div class="info">
+    <header class=" flex bg-bianco space-b">
+        <div class="left flex">
+            <div class="info flex">
                 <section class="logo"> <a href="#"> <img src="img/logo-small.png" alt=""></a></section>
-                <section> <a href="#">info</a></section>
-                <section> <a href="#">info</a></section>
-                <section> <a href="#">info</a></section>
+                <section class="mt-1"> <a class="decoration-no txt-nero" href="#">perchè dropbox</a></section>
+                <section class="mt-1"> <a class="decoration-no txt-nero" href="#">funzioni</a></section>
+                <section class="mt-1"> <a class="decoration-no txt-nero" href="#">piani e prezzi</a></section>
             </div>
             
 
         </div>
 
-        <div class="right">
-            <div class="info">
-                <section> <a href="#">info</a></section>
-                <section> <a href="#">info</a></section>
-                <section> <a href="#">info</a></section>
-                <section class="bottone"> <a href="#"> accedi</a></section>
+        <div class="right flex">
+            <div class="info flex">
+                <section class="mt-1"> <a class="decoration-no txt-nero" href="#">supporto</a></section>
+                <section class="mt-1"> <a class="decoration-no txt-nero" href="#">contatta ufficio vendite</a></section>
+                <section class="mt-1"> <a class="decoration-no txt-nero" href="#">accedi</a></section>
+                <section><a class="decoration-no" href="#"> <button class="  w-100 bg-blu txt-bianco border-n p-1 ">inizia</button></a></section>
             </div>
 
         </div>
@@ -41,11 +41,11 @@
     <main>
 
         <!--parte main superiore intro-->
-        <div class=" bg-azzurro ">
-            <div class="titolo-uno flex xL-font"> 
+        <div class=" bg-azzurro w-100">
+            <div class=" justify-center flex align-center w-100 xL-font"> 
                 <h1 class="bold mb-0"> Lorem ipsum dolor sit amet consectetur  <br>adipisicing elit. Odit, quis quaerat!</h1>
             </div>
-            <div class="content-wrapper">
+            <div class="content-wrapper flex ">
                 <div class="text-container">
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In enim voluptatum est error praesentium nisi libero cum. Suscipit consequuntur eum vero quaerat, dolorum illum ducimus, fugiat quam ipsum dignissimos officiis voluptatibus ex recusandae? Maiores, animi veritatis consectetur laborum velit alias!</p>
                     <button class="p-1 mb-2 w-50 mt-2 bg-blu txt-bianco border-n ">Acquista ora</button>
@@ -55,7 +55,7 @@
 
                 
                 
-                <div class="img-container">
+                <div class="img-container flex justify-center flex align-center">
                     <img src="img/jumbo.png" alt="Descrizione immagine">
                 </div>
             </div>
@@ -68,14 +68,16 @@
 
                                             <!--radiobutton-->
 
-            <div class="options mb-5">
+            <div class="options mb-5 " >
+                <label class="custom-option mr-2">
+                    <input type="radio" name="choice" value="option1">
+                    <span class="custom-radio"></span>
+                    <span class="radio-text">fatturazione mensile</span>
+                </label>
                 <label class="custom-option">
                     <input type="radio" name="choice" value="option1">
                     <span class="custom-radio"></span>
-                </label>
-                <label class="custom-option">
-                    <input type="radio" name="choice" value="option2">
-                    <span class="custom-radio"></span>
+                    <span class="radio-text"> fatturazione annuale</span>
                 </label>
             </div>
 
@@ -94,13 +96,14 @@
                     <ul class="list">
                         <li class="pb-1 "><i class="fa fa-user"></i> 1 utente</li>
                         <li class="pb-1 "><i class="fa fa-folder"></i> 5TB di spazio</li>
-                        <li class="pb-1 "><i class="fa fa-share-alt"></i> Condivisione</li>
+                        <li class="pb-1 "><i class="fa fa-share-alt"></i> Lorem ipsum dolor sit amet consectetur.</li>
                     </ul>
-                    <button class="p-1 mb-2 w-100 mt-2 bg-blu txt-bianco border-n">Acquista ora</button>
+                    <button class="p-1 mb-2 w-100 mt-2 bg-blu txt-bianco border-n">prova gratis per 30 giorni</button>
                     <p class=" list  text-left ml-0 ">oppure <a href="#">acquista ora</a></p>
                     <hr class="w-50 ml-0">
 
                     <ul class="list">
+                        <li class="pb-1 bold mb-2">punti salienti del piano</li>
                         <li class="pb-1"><i class="fa fa-check txt-blu"></i> 1 utente</li>
                         <li class="pb-1"><i class="fa fa-check txt-blu"></i> 5TB di spazio</li>
                         <li class="pb-1"><i class="fa fa-check txt-blu"></i> Condivisione</li>
@@ -118,13 +121,14 @@
                     <ul class="list">
                         <li class="pb-1 "><i class="fa fa-user"></i> 1 utente</li>
                         <li class="pb-1 "><i class="fa fa-folder"></i> 5TB di spazio</li>
-                        <li class="pb-1 "><i class="fa fa-share-alt"></i> Condivisione</li>
+                        <li class="pb-1"><i class="fa fa-share-alt"></i> Lorem ipsum dolor sit amet consectetur.</li>
                     </ul>
-                    <button class="p-1 mb-2 w-100 mt-2 bg-blu txt-bianco border-n">Acquista ora</button>
+                    <button class="p-1 mb-2 w-100 mt-2 bg-blu txt-bianco border-n">prova gratis per 30 giorni</button>
                     <p class=" list  text-left ml-0 ">oppure <a href="#">acquista ora</a></p>
                     <hr class="w-50 ml-0">
 
                     <ul class="list">
+                        <li class="pb-1 bold mb-2">punti salienti del piano</li>
                         <li class="pb-1"><i class="fa fa-check txt-blu"></i> 1 utente</li>
                         <li class="pb-1"><i class="fa fa-check txt-blu"></i> 5TB di spazio</li>
                         <li class="pb-1"><i class="fa fa-check txt-blu"></i> Condivisione</li>
@@ -145,13 +149,14 @@
                     <ul class="list">
                         <li class="pb-1 "><i class="fa fa-user"></i> 1 utente</li>
                         <li class="pb-1 "><i class="fa fa-folder"></i> 5TB di spazio</li>
-                        <li class="pb-1 "><i class="fa fa-share-alt"></i> Condivisione</li>
+                        <li class="pb-1 "><i class="fa fa-share-alt"></i> Lorem ipsum dolor sit amet consectetur.</li>
                     </ul>
-                    <button class="p-1 mb-2 w-100 mt-2 bg-blu txt-bianco border-n">Acquista ora</button>
+                    <button class="p-1 mb-2 w-100 mt-2 bg-blu txt-bianco border-n">prova gratis per 30 giorni</button>
                     <p class=" list  text-left ml-0 ">oppure <a href="#">acquista ora</a></p>
                     <hr class="w-50 ml-0">
 
                     <ul class="list">
+                        <li class="pb-1 bold mb-2">punti salienti del piano</li>
                         <li class="pb-1"><i class="fa fa-check txt-blu"></i> 1 utente</li>
                         <li class="pb-1"><i class="fa fa-check txt-blu"></i> 5TB di spazio</li>
                         <li class="pb-1"><i class="fa fa-check txt-blu"></i> Condivisione</li>
@@ -169,7 +174,7 @@
                         <h3 class="bold text-center mt-0 mb-0"><i class="fas fa-hotel" ></i> singolo </h3>
                         <hr class="w-100">
                         <ul class="list ">
-                            <li class="pb-1 bold xL-font mb-2 space-b"> 1 utente <button class=" mb-2 w-25 mt-2 bg-blu txt-bianco border-n p-2">Acquista ora</button></li>
+                            <li class="pb-1 bold xL-font mb-2 space-b"> 1 utente <button class=" mb-2 w-25 mt-2 bg-blu txt-bianco border-n p-2">contatta l'ufficio vendite</button></li>
                             <li class="pb-1 bold m-font mb-5 "> 5TB di spazio </li>
                             <li class="pb-1 mt-2 "> Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
                         </ul>
@@ -182,7 +187,7 @@
                                             <!--fine contenitore-->
 
                                             <!--inizio contenitore partner-->
-                <div class="full-width-section flex space-b mt-5  ">
+                <div class="full-width-section flex space-b mt-5  mb-5 ">
                     <div class="img-part">
                         <img src="img/partner.png" alt="Partner Image">
                     </div>
@@ -196,10 +201,10 @@
                                             <!--fine reparto partner-->
                                             <!--inzio card contenitori-->
 
-                <div class="cards-container w-60">
-                    <h1 class="center-block ">Lorem ipsum dolor sit amet consectetur.</h1>
+                <div class="cards-container space-b flex w-60">
+                    <h1 class="titolo-uno">Lorem ipsum dolor sit amet consectetur.</h1>
                     <!-- Prima Riga -->
-                    <div class="card-row">
+                    <div class="card-row flex space-b w-100">
                         <div class="card">
                             <img src="img/business-feature-multi-device.png" alt="Card Image 1">
                             <h4 class="bold">Lorem ipsum dolor sit.</h4>
@@ -217,7 +222,7 @@
                         </div>
                     </div>
                     <!-- Seconda Riga -->
-                    <div class="card-row">
+                    <div class="card-row flex space-b w-100">
                         <div class="card">
                             <img src="img/business-feature-security.png" alt="Card Image 4">
                             <h4 class="bold">Lorem ipsum dolor sit.</h4>
@@ -235,15 +240,77 @@
                         </div>
                     </div>
                 </div>
-                
-
-                                            
-
-                                            
-                
-                
-                
+                                                                <!--fine repartro cards-->
+                                                                <!--info dropbox persone-->
+                <div class="w-60 ">
+                    <h1 class="titolo-uno mb-5 ">Lorem ipsum dolor sit amet consectetur  <br>adipisicing elit. Dolores, eaque! </h1>
+                    <section class="mb-5"><a href=""> Lorem ipsum dolor sit.</a></section>
+                </div>
+                                                                <!--fine info dropbox persone-->    
             </div>  
+                                     <!-- inizio Contenitore quadrati e scrolbarr -->
+            <div class="flex w-100 mt-5"> 
+
+                <!-- Quadrato a sinistra-->
+                <div class="flex flex-wrap w-35"> 
+                    <div class="w-50 h-50 bg-rosso flex justify-center align-center">
+                        <img src="img/world_bicycle_relief.svg" alt="Logo 1" class="max-w-80 max-h-80">
+                    </div>
+                    <div class="w-50 h-50 bg-verde flex justify-center align-center">
+                        <img src="img/university_of_florida.svg" alt="Logo 2" class="max-w-80 max-h-80">
+                    </div>
+            
+                    <div class="w-50 h-50 bg-giallo flex justify-center align-center">
+                        <img src="img/topps.svg" alt="Logo 3" class="max-w-80 max-h-80">
+                    </div>
+                    <div class="w-50 h-50 bg-turchese flex justify-center align-center">
+                        <img src="img/lonely_planet.svg" alt="Logo 4" class="max-w-80 max-h-80">
+                    </div>
+                </div>
+            
+                <!-- Quadrato centrale con testo e scrollbar -->
+                <div class="flex w-35 overflow-auto column mr-0" style="max-height: 60vh;">
+                    <div>
+                        <img src="img/lonely_planet.svg" alt="" class="h-75 w-50 flex  imgscroll">
+                        <hr>
+                    </div>
+                
+                    <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi provident ratione laborum amet aperiam doloremque facilis maxime suscipit accusamus culpa delectus quia officiis incidunt recusandae voluptatum repudiandae, illo dolor ipsam omnis quae necessitatibus. Tempore accusantium nesciunt consectetur vitae alias totam. Facilis quam, aliquam quibusdam rerum eaque tempora suscipit veniam perferendis tenetur eligendi labore corrupti fugiat quasi architecto ipsam cumque quo laudantium porro iure vitae eius maxime in. Voluptatibus assumenda tempora dolore rerum dolores laudantium minima consequatur et nam nobis nostrum praesentium corporis molestiae amet optio, enim nisi harum a culpa libero soluta doloribus excepturi! Nam repudiandae officiis sint, deleniti facilis ab atque? Dolor illum quisquam, earum ad labore doloremque quae! Mollitia a ex totam eveniet, ratione exercitationem adipisci dolorem incidunt, dolorum reiciendis repudiandae quasi rem ullam earum blanditiis necessitatibus excepturi laudantium temporibus dolor atque odio aliquam quo. Voluptates iusto explicabo in beatae possimus quibusdam. Consequuntur ipsa vitae error dolore eum quam, impedit architecto dolores laboriosam corrupti obcaecati id tenetur rerum iusto totam illo laudantium, fuga aperiam. Atque voluptatum possimus illum iusto. Ea eius deleniti necessitatibus laudantium ex! Excepturi fugiat ut, dolor est necessitatibus voluptates alias corrupti nostrum iste! Sunt, eveniet! Doloribus similique ipsum atque vero labore? Quo, labore eaque. Libero quaerat, veritatis ipsum suscipit, corrupti commodi porro voluptates vitae ducimus, ad quod quidem. Consequuntur minus deleniti delectus facere, blanditiis rerum cupiditate fugit.</p></div>
+                </div>
+
+            
+                <!-- Quadrato a destra con 4 sotto-quadrati-->
+                <div class="flex flex-wrap w-35 mr-0"> 
+                    <div class="w-50 h-50 bg-verde flex justify-center align-center">
+                        <img src="img/hearst_corp.svg" alt="Logo 1" class="max-w-80 max-h-80">
+                    </div>
+                    <div class="w-50 h-50 bg-azzurro flex justify-center align-center">
+                        <img src="img/designit.svg" alt="Logo 2" class="max-w-80 max-h-80">
+                    </div>
+
+                    <div class="w-50 h-50 bg-blu flex justify-center align-center">
+                        <img src="img/clear_channel.svg" alt="Logo 3" class="max-w-80 max-h-80">
+                    </div>
+                    <div class="w-50 h-50 bg-giallo flex  justify-center align-center">
+                        <img src="img/arizona_state_university.svg" alt="Logo 4" class="max-w-80 max-h-80">
+                    </div>
+                </div>
+            
+            </div>
+
+                                                    <!-- fine Contenitore quadrati e scrolbarr -->
+                                                    
+
+
+            <div class="bg-azzurro flex  justify-center p-5">
+                <div class="w-60  flex inline-block space-b  ">
+                    <h2 class="txt-porpora "> Lorem ipsum dolor sit amet consectetur  <br>adipisicing elit.</h2>
+                    <button class="w-15 h-25 mt-4  shadow-light border-n bg-bianco txt-nero border p-1">Acquista ora</button>
+                </div>
+
+            </div>
+        
+            
         </div>
 
 
@@ -253,6 +320,91 @@
 
 
     <footer>
+
+                                                                <!-- inizio domande frequenti con hover -->
+        <div class="flex  justify-center p-5">
+            <div class="w-60  flex column  no-shadow border-n ">
+                <h1 class="bold xL-font mb-5">Domande frequenti</h1>
+                <hr class="w-60">
+                <h2 class="bold m-font"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <i class="fas fa-angle-down"></i>
+                    <span class="hover-text txt-grigio s-font">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, minima hic eum vero aut voluptates.</span>
+                </h2>
+                <hr class="w-60">
+                <h2 class="bold m-font"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <i class="fas fa-angle-down"></i>
+                    <span class="hover-text txt-grigio s-font">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, minima hic eum vero aut voluptates.</span>
+                </h2>
+                <hr class="w-60">
+                <h2 class="bold m-font"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    <i class="fas fa-angle-down"></i>
+                    <span class="hover-text txt-grigio s-font">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, minima hic eum vero aut voluptates.</span>
+                </h2>
+                
+            </div>
+
+                                                                <!-- fine domande frequenti con hover -->
+                                                                <!-- inizio  info fine pagina -->
+
+            
+
+            
+
+        </div>
+        <div class="container w-100  bg-nero">
+            <div class="columns-wrapper w-75 p-0 mt-5 mb-5 ">
+
+                <div class="column border-n">
+                    <ul class="list">
+                        <li class="pb-1 bold mb-5 txt-bianco"> DROPBOX</li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                    </ul>
+                </div>
+                <div class="column border-n">
+                    <ul class="list">
+                        <li class="pb-1 bold mb-5 txt-bianco"> DROPBOX</li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                    </ul>
+                </div>
+                <div class="column border-n">
+                    <ul class="list">
+                        <li class="pb-1 bold mb-5 txt-bianco"> DROPBOX</li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                    </ul>
+                </div>
+                <div class="column border-n">
+                    <ul class="list">
+                        <li class="pb-1 bold mb-5 txt-bianco"> DROPBOX</li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                    </ul>
+                </div>
+                <div class="column border-n ">
+                    <ul class="list">
+                        <li class="pb-1 bold mb-5 txt-bianco"> DROPBOX</li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                        <li class="pb-1"> <a class="decoration-no txt-grigio" href="#">Condivisione</a> </li>
+                    </ul>
+                </div>
+            <div>
+        </div>
+        
+
+       
+
 
     </footer>
     
